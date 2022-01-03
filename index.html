@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/index.css">
+  <title>Pruebas Remotas</title>
+</head>
+<body>
+  
+    <header>
+      <div class="container">
+       
+        <a href="#"><img src="images/logo.png" alt="Website Logo"></a>
+        <img src="images/menu-mobile.png" alt="Abrir Menu" id="mobile-cta" class="menu-open">
+        <nav>
+          <div class="head-nav">
+          <img src="images/logo.png" alt="Website Logo">
+          <img src="images/menu-mobile-exit.png" alt="Cerrar Menu" id="mobile-exit" class="menu-exit">
+          </div>
+          <a></a>
+          <ul>
+            <li><a href="#"> Productos</a></li>
+            <li><a href="#">Sobre Nosotros</a></li>
+            <li><a href="#">Contacto</a></li>
+          </ul>
+          <div class="btn-menunav">
+            <a href="#" class="start-button-cta">Empiece gratis</a>
+            <a href="#" class="try-button-cta">Prueba la demo</a>
+
+          </div>
+          
+          <div class="social-nav">
+            
+            
+              <a href=""><img src="images/twitter.png" alt="Twitter"></a>
+              <a href=""><img src="images/facebook.png" alt="Twitter"></a>
+              <a href=""><img src="images/linkedin.png" alt="Twitter"></a>
+            
+          </div>
+
+        </nav>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="container">
+        <div class="bgcircle-left"></div>
+        <div class="bgcircle-right"></div>
+        <h1>Pruebe rápidamente cualquier cosa</h1>
+        <p>Impulse la toma de decisiones con pruebas rápidas y remotas</p>
+
+        <a href="#" class="start-button-cta">Empiece gratis</a>
+        <a href="#" class="try-button-cta">Prueba la demo</a>
+
+        <img src="images/Flat Browser.png" alt="Navegador">
+
+      </div>
+    </section>
+
+    <section class="try">
+      <div class="container">
+        <h1>Prueba cada paso del camino</h1>
+        <p>Comparta pruebas o encuestas con los usuarios en cuestión de segundos a través de una simple URL.</p>
+        <a href="#" class="start-button-cta">Empiece gratis</a>
+        <a href="#" class="try-button-cta">Prueba la demo</a>
+      </div>
+    </section>
+
+    <section class="one">
+      <div class="bgcircle-right--one"></div>
+      <div class="container">
+        <img src="images/screen.png" alt="Screen Info">
+        <div class="right_one">
+          <h2>Cree pruebas tan simples o dinámicas como desee</h2>
+          <p>!Crea fácilmente pruebas personalizadas con las funciones versátiles!</p>
+          <a href="#">VER MÁS</a>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="two">
+      <div class="bgcircle-left--two"></div>
+      <div class="container">
+        <img src="images/screen_two.png" alt="Screen Two">
+        <div class="flex-two">
+          <h2>Personalización de marca</h2>
+          <p>Personalice elementos de sus laberintos para crear una experiencia de usuario de marca</p>
+          <a href="#">VER MÁS</a>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="three">
+      <div class="bgcircle-left--three"></div>
+      <div class="bgcircle-right--three"></div>
+      <div class="container">
+        <h2>Testimonials</h2>
+        <p>Esta herramienta facilitó muchísimo el trabajo en equipo. Permitiendo acelerar nuestro proceso de diseño.</p>
+        
+        <div class="flex-three">
+          <img src="images/avatar.png" alt="Avatar de Usuario">
+          <h4>Uxcristopher</h4>
+
+
+        </div>
+        <a href="#" class="start-button-cta">Ver más Testimonios</a>
+      </div>
+    </section>
+
+    <section class="four">
+      <div class="container">
+        <div class="four-flex">
+          <h2>Profesional</h2>
+          <p>Aporta conocimientos prácticos a todo el equipo</p>
+
+        </div>
+        <div class="four-flex2">
+          <p class="price-four">$25<span>/mes</span></p>
+          <a href="#" class="start-button-cta">Empezar</a>
+
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="wrap-logo--footer">
+          <img  src="images/logo.png" alt="Logo No te rindas">
+          <h7>No te rindas</h7>
+        </div>
+        <div class="footer-nav">
+          <ul>
+            <li><a href="">Productos</a></li>
+            <li><a href="">Sobre Nosotros</a></li>
+            <li><a href="">Contacto</a></li>
+          </ul>
+        </div>
+        <div class="social-icon">
+          <a href="#"><img src="images/twitter.png" alt="Twitter Social Media"></a>
+          <a href="#"><img src="images/facebook.png" alt="Facebook Social Media"></a>
+          <a href="#"><img src="images/linkedin.png" alt="Linkedin Profile"></a>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      const mobileBtn = document.getElementById('mobile-cta')
+          nav= document.querySelector('nav')
+          mobileBtnExit= document.getElementById('mobile-exit');
+
+          mobileBtn.addEventListener('click', () => {
+              nav.classList.add('menu-btn');
+          })
+          mobileBtnExit.addEventListener('click', () => {
+              nav.classList.remove('menu-btn');
+          })
+
+  </script>
+
+
+</body>
+</html>
